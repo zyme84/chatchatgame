@@ -271,7 +271,7 @@ function enterGame(roomID, roomName, roomPass, myUsername) {
       const text = new Text(names[player.id], { fontFamily:'ChatChat', fontSize: 8, fill: 'white' })
       text.x = 16 - text.width / 2;
       text.y = 32;
-      container.addChild(text);
+      sprite.addChild(text);
 
       world.addChild(container)
     }
